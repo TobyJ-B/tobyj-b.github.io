@@ -1,0 +1,52 @@
+body {
+  background: white;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.container{
+  width: 980px;
+  margin: 56px auto 20px; /* top right bottom left */
+  text-align: left;
+  box-shadow: 0 0 7px;
+  padding: 14px 14px 14px 14px; /* top right bottom left */
+  z-index 1;
+}
+
+/* Profile */
+
+.profile{
+  max-width: 600px;
+  overflow:hidden;
+}
+
+.profilepic{
+  float:left;
+  margin-right: 20px;
+}
+
+.profilepic img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profilecontent{
+  float: left;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Book page */
+
+.bookcontainer{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.book{
+  margin: 50px;
+}
+
