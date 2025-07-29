@@ -50,6 +50,11 @@ body {
   margin: 50px;
 }
 
+.book img{
+  width: 294;
+  height: 425;
+}
+
 .bookreview{
   margin: 20px;
   width: 980px;
