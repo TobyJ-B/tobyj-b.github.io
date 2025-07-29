@@ -50,9 +50,11 @@ body {
   margin: 50px;
 }
 
-.book img{
-  width: 294;
-  height: 425;
+.book p img{
+  max-width: 294px;
+  max-height: 425px;
+  height: auto;
+  width: auto;
 }
 
 .bookreview{
