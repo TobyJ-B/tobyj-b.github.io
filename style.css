@@ -10,7 +10,7 @@ body {
   text-align: left;
   box-shadow: 0 0 7px;
   padding: 14px 14px 14px 14px; /* top right bottom left */
-  z-index 1;
+  z-index: 1;
 }
 
 /* Profile */
@@ -50,14 +50,26 @@ body {
   margin: 50px;
 }
 
-.book p img{
+.book img{
   max-width: 294px;
   max-height: 425px;
   height: auto;
   width: auto;
 }
 
+.book p {
+  margin: 0 0 4px 0; /* Remove top margin, keep small bottom margin */
+  line-height: 1.3;  /* Optional: tighten line height for closer lines */
+}
+
+.book a {
+  display: inline-block;
+  margin-top: 0; /* Remove any extra margin above the link */
+  text-decoration: underline;
+}
+
 .bookreview{
   margin: 20px;
   width: 980px;
 }
+
