@@ -73,3 +73,7 @@ body {
   width: 980px;
 }
 
+#buttons{
+  float: right;
+}
+
