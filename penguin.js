@@ -128,4 +128,7 @@ function spawnPenguin(){
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#buttons button').addEventListener('click', spawnPenguin);
   physicsLoop();
+  for(let i = 0; i < 3; i++){
+    spawnPenguin();
+  }
 })
